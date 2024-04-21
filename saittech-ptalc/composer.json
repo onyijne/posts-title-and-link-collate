@@ -1,0 +1,23 @@
+{
+    "name": "saittech/posts-title-and-link-collate",
+    "type": "wordpress-plugin",
+    "require": {
+    },
+    "license": "GNU AGPL v3+",
+    "authors": [
+        {
+            "name": "Samuel Onyijne",
+            "email": "io@sait.com.ng"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "saittechptalc\\": "saittech-ptalc/"
+        }
+      },
+      "autoload-dev": {
+        "psr-4": {
+          "saittechptalc\\Tests\\": "tests/"
+        }
+      }
+}
